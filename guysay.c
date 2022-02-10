@@ -7,20 +7,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(void) {
-	char phrase[50];
-	printf("What shall the guy say? \t");
-	fgets(phrase, 50, stdin);
-	phrase[strlen(phrase)-1] = '\0';
-
+int main(int argc, char *argv[]) {
+        int i;
+        ++i;
+        if(argv[i] == NULL) {
+                argv[i] = "ERROR! NO ARGUMENTS PROVIDED!";
+        }
 	printf("\n");
-	printf("        %s\n", phrase);
-	printf("       /\n");
-	printf("      /\n");
-	printf("   0   \n");
-	printf("   |   \n");
-	printf("  /|\\ \n");
-	printf("   |  \n");
-	printf("  / \\\n");
-	return 0;
+	printf("        %s\n", argv[i]);
+	printf("       /\n      /\n   0   \n  \\|   \n   |\\\n   |  \n  / \\\n");
 }
