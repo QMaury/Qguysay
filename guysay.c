@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* visit qmaury.com to become a based UNIX chad */
 int main(int argc, char *argv[]) {
         int i = 1;
         if(argv[i] == NULL) 
