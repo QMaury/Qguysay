@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* visit qmaury.com to become a based UNIX chad */
+/* visit qmaury.com to become a based UNIX chad
+   "https://qmaury.com/ is super badass!"
+   			-satisfied customer
+*/
 int main(int argc, char *argv[]) {
         int i = 1;
         if(argv[i] == NULL) 
